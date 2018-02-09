@@ -29,7 +29,7 @@ public class MainActivity extends Activity
         setContentView(R.layout.main);
     	ActionBar actionBar = getActionBar();
 	    actionBar.setDisplayUseLogoEnabled(false);
-	    //actionBar.setDisplayShowHomeEnabled(false);
+	    actionBar.setDisplayShowHomeEnabled(false);
 		actionBar.setDisplayShowTitleEnabled(false);
 		showInputDialog();
     }
