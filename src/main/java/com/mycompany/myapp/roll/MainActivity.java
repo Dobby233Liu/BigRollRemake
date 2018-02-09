@@ -31,6 +31,22 @@ public class MainActivity extends Activity
 	    actionBar.setDisplayUseLogoEnabled(false);
 	    actionBar.setDisplayShowHomeEnabled(false);
 		actionBar.setDisplayShowTitleEnabled(false);
+	((TextView)findViewById(R.id.Loremipsum)).setOnClickListener(new View.OnClickListener(){
+		public void onClick(View p1){
+		Toast.makeText(MainActivity.this,R.string.long_press_to_copy,Toast.LENGTH_LONG).show();
+		}
+	});
+	((TextView)findViewById(R.id.Loremipsum)).setOnLongClickListener(new View.OnLongClickListener(){
+
+		@Override
+		public boolean onLongClick(View p1)
+		{
+		ClipboardManager cm = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
+		cm.setText(((TextView)findViewById(R.id.Loremipsum)).getText().toString());
+		Toast.makeText(MainActivity.this,R.string.copied,Toast.LENGTH_LONG).show();
+		return true;
+		}
+	});
 		showInputDialog();
     }
 	private void showInputDialog() {

@@ -19,5 +19,7 @@ limitations under the License.
     <string name="app_name">BigRollRemake</string>
 	<string name="insert">Insert</string>
 	<string name="text">Text</string>
+	<string name="copied">Copied</string>
+	<string name="long_press_to_copy">Hold to copy</string>
 
 </resources>
