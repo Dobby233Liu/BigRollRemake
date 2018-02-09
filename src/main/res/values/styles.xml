@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Copyright 2018 appfour
+Copyright 2018 Liu Wenyuan <papaqi1234567@163.com>
+(omit Apache License)
 -->
 <resources>
     <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+		
 	</style>
 </resources>
