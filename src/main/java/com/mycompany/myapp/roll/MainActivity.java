@@ -27,8 +27,11 @@ public class MainActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+    	ActionBar actionBar = getActionBar();
+	    actionBar.setDisplayUseLogoEnabled(false);
+	    //actionBar.setDisplayShowHomeEnabled(false);
+		actionBar.setDisplayShowTitleEnabled(false);
 		showInputDialog();
-	
     }
 	private void showInputDialog() {
     /*@setView 装入一个EditView
