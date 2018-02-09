@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2018 appfour
+-->
 <resources>
     <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
 	</style>
