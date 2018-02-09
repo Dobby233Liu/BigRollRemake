@@ -1,0 +1,12 @@
+BigRoll, a application for displaying text.
+
+Fresh layout: 
+-----------------
+|SystemUI       |
+|---------------|
+|ActionBar item |
+|--ScrollView---|
+|TextView (big) |
+|               |
+|               |
+|---------------|
