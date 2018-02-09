@@ -37,6 +37,7 @@ public class MainActivity extends Activity
     /*@setView 装入一个EditView
      */
     final EditText editText = new EditText(MainActivity.this);
+	editText.setText(((TextView)findViewById(R.id.Loremipsum)).getText());
     AlertDialog.Builder inputDialog = 
 	new AlertDialog.Builder(MainActivity.this);
     inputDialog.setTitle(R.string.text).setView(editText);
